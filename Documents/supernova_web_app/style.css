@@ -56,5 +56,19 @@ button:active{
     display: flex;
     align-items: center;
     justify-content: center;
-
+}
+.logo{
+    height:80px;
+    width:auto;
+    margin: 20px auto;
+    display: block;
+}
+.fade-in{
+    opacity:0;
+    animation: fade 1.2s ease-in forwards;
+}
+#keyframes fade{
+    to{
+        opacity:1;
+    }
 }
